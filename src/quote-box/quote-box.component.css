@@ -1,0 +1,56 @@
+i.fa.fa-twitter {
+  margin-top: 5px;
+font-size: 2em;
+}
+i.fa.fa-plus {
+font-size: 2em;
+}
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #28a745;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  margin: 5px auto 5px auto;
+}
+
+#plus {
+  height: 40px;
+  width: 40px;
+}
+
+#tweet {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.card {
+     margin-top: 50px;
+     height: 350px;
+     width: 600px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 30rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+p {
+    color: #28a745;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+footer {
+  font-size: 2rem;
+}

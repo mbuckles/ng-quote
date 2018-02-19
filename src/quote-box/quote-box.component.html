@@ -1,20 +1,26 @@
 <div class="container">
-  <div class="row justify-content-center">
-    <div class="card">
-      <h1>Random Quote Generator</h1>
-        <blockquote class="blockquote">
-          <p><i class="fa fa-quote-left fa-lg"></i> {{quote.quote}}</p>
-          <footer class="blockquote-footer text-dark" [innerText]="quote.author"></footer>
-        </blockquote>
-        <br>
-        <div class="row">
-          <a [href]="'https://twitter.com/intent/tweet?text=' + quote.quote" target="_blank " id="quote-tweet"><img src="http://www.niftybuttons.com/ChrisWallace_Large/twitter.png " title="(Tweet Quote)">- Tweet quote</a>
-        </div>
-        <div class="row">
-          <button id="plus" class="btn btn-default" (click)="getQuote()">New Quote</button>
-        </div>
-        <br>
 
+    <div class="title">
+      <div class="title1">
+        <h1>Random Quote Generator</h1>
+      </div>
     </div>
+
+<div class="quote">
+  <div class="quote1">
+    <p class="quote"><i class="fa fa-quote-left fa-lg"></i> {{quote.quote}}</p>
+    <p class="author">- {{quote.author}}</p>
   </div>
+</div>
+
+  <div class="buttons">
+    <div class="buttons1">
+    <button class="btn btn-default"><a [href]="'https://twitter.com/intent/tweet?text=' + quote.quote" target="_blank " id="quote-tweet"> Tweet quote</a>    </button>
+    </div>
+    <div class="buttons2">
+      <button class="btn btn-default" (click)="getQuote()">New Quote</button>
+    </div>
+
+  </div>
+
 </div>

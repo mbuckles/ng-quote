@@ -8,8 +8,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot --target=production"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +23,7 @@
     "@angular/platform-browser": "^5.0.0",
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
+    "@angular/service-worker": "^5.2.5",
     "angular-font-awesome": "^3.0.3",
     "bootstrap": "^4.0.0-beta.2",
     "core-js": "^2.4.1",
@@ -31,7 +31,6 @@
     "font-awesome": "^4.7.0",
     "path": "^0.12.7",
     "rxjs": "^5.5.2",
-    "typescript": "~2.4.2",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
@@ -50,10 +49,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
-    "tslint": "~5.7.0"
-  },
-  "engines": {
-    "node": "9.3.0",
-    "npm": "5.6.0"
+    "tslint": "~5.7.0",
+    "typescript": "~2.4.2"
   }
 }

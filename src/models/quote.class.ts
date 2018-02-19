@@ -3,7 +3,7 @@ export class Quote {
   public author: string;
   public cat: string;
 
-  constructor(quote: string, author:string, cat: string) {
+  constructor(quote: string, author: string, cat: string) {
     this.quote = quote;
     this.author = author;
     this.cat = cat;

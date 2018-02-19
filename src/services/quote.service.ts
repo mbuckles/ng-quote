@@ -4,11 +4,11 @@ import { HttpClient } from '@angular/common/http';
 @Injectable()
   export class  QuoteService {
 
-  constructor(public http: HttpClient){
+  constructor(public http: HttpClient) {
   }
 
 
 public getRandomQuote() {
-  return this.http.get('https://talaikis.com/api/quotes/random/')
+  return this.http.get('https://talaikis.com/api/quotes/random/');
   }
 }

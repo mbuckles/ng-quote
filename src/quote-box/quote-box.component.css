@@ -1,4 +1,4 @@
-i.fa.fa-twitter {
+/* i.fa.fa-twitter {
   margin-top: 5px;
 font-size: 2em;
 }
@@ -72,16 +72,85 @@ footer {
       box-shadow: 2px 2px 2px grey;
       margin-bottom: 2rem;
       color: #000000;
-  }
+    }
 
-  .quote-border{
-  color:black;
-  height:160px;
-  width: 65%;
-  background-color: #FCFBE3;
-    border-style: solid;
-    border-color: silver;
-    border-width: 3px;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 10px;
+    .quote-border{
+      color:black;
+      height:160px;
+      width: 65%;
+      background-color: #FCFBE3;
+      border-style: solid;
+      border-color: silver;
+      border-width: 3px;
+      box-shadow: 5px 5px 5px grey;
+      border-radius: 10px;
+    } */
+
+a, a.hover {
+      color: #5755d9;
+      outline: none;
+      text-decoration: none;
+  }
+    .container {
+      max-width: 700px;
+      margin: 40px auto 40px auto;
+      background-color: #FCFBE3;;
+      color:black;
+      border-style: solid;
+      border-color: silver;
+      border-width: 3px;
+      box-shadow: 5px 5px 5px grey;
+      border-radius: 10px;
+    }
+    .title {
+          display: flex;
+          margin-top: 10px;
+    }
+    .title1 {
+      margin:auto;
+      margin-bottom: 20px;
+    }
+p.quote {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+  }
+.author {
+      margin-bottom: 1rem;
+      font-size: 1.0rem;
+  }
+.quote {
+  display: flex;
+}
+.quote1 {
+  margin:auto;
+}
+.buttons {
+  display: flex;
+  margin: 10px auto 20px auto;
+  width: 100px;
+}
+.buttons1 {
+  flex: 1;
+  text-align: right;
+  margin-right: 5px;
+  font-size: 1.3em;
+  background-color: #90e5ff;
+  border-style: solid;
+  border-color: silver;
+  border-width: 3px;
+  box-shadow: 2px 2px 2px grey;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+.buttons2 {
+  flex: 1;
+  margin-left: 5px;
+  font-size: 1.3em;
+  background-color: #90e5ff;
+  border-style: solid;
+  border-color: silver;
+  border-width: 3px;
+  box-shadow: 2px 2px 2px grey;
+  margin-bottom: 2rem;
+  color: #000000;
 }

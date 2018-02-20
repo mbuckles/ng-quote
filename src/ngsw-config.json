@@ -23,12 +23,10 @@
         "/assets/**"
       ],
       "urls": [
+        "https://talaikis.com/api/quotes/random/",
         "http://fonts.googleapis.com/**",
-        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
         "https://fonts.googleapis.com/css?family=Shrikhand",
-        "https://code.jquery.com/jquery-3.1.1.min.js",
-        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js",
-        "https://talaikis.com/api/quotes/random/"
+        "https://fonts.googleapis.com/css?family=Candal"
       ]
     }
    }],
@@ -42,7 +40,13 @@
          "maxAge": "1h",
          "timeout": "5s"
        }
-
-     }
-   ]
+      }, {
+         "name": "api-performance",
+         "urls": ["/quote-box"],
+         "cacheConfig": {
+           "maxSize": 20,
+           "maxAge": "4h",
+           "strategy": "performance"
+         }
+        }]
 }

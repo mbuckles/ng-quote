@@ -4,7 +4,7 @@ import { HttpClientModule} from '@angular/common/http'; // add this for api
 import { MaterialModule } from './material.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
-import { RouterModule } from '@angular/router';
+// import { RouterModule } from '@angular/router';
 import { QuoteService} from '../services/quote.service';  // add this
 import { QuoteBoxComponent} from '../app/quote-box/quote-box.component'; //add this
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -15,7 +15,6 @@ import { environment } from '../environments/environment';
   declarations: [
     AppComponent,
     QuoteBoxComponent, // components added go here
-    //AngularFontAwesomeModule
   ],
   imports: [
     BrowserModule,

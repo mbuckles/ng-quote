@@ -1,0 +1,69 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/main.c53a3916d880c3bfd689.bundle.js",
+        "/polyfills.713242ac4e830ff978cb.bundle.js",
+        "/styles.5fcf5c7c671fee91afc7.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/android-chrome-512x512.png",
+        "/assets/icons/giphy.gif",
+        "/assets/icons/logo.svg",
+        "/assets/icons/PWA.png"
+      ],
+      "patterns": [
+        "https:\\/\\/talaikis\\.com\\/api\\/quotes\\/random\\/",
+        "http:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Shrikhand",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Candal"
+      ]
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "task-users-api",
+      "patterns": [
+        "\\/tasks",
+        "\\/users"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "version": 1
+    },
+    {
+      "name": "api-performance",
+      "patterns": [
+        "\\/quote-box"
+      ],
+      "strategy": "performance",
+      "maxSize": 20,
+      "maxAge": 14400000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/main.c53a3916d880c3bfd689.bundle.js": "76e3045d847c8903b0a04fc73e67222d36bf2ebc",
+    "/assets/icons/android-chrome-512x512.png": "b7a5b040a49ebf8a8e175bc2d43c78dafed5f046",
+    "/polyfills.713242ac4e830ff978cb.bundle.js": "8e08f3339964db09131b8440e6b399157ddf8b1a",
+    "/assets/icons/giphy.gif": "8947a7e8900a4e4359ded13199f4f05ee0e55e84",
+    "/styles.5fcf5c7c671fee91afc7.bundle.css": "0703675b41711558df053566a657a3f6299019a0",
+    "/assets/icons/logo.svg": "7aae975a2fe9f2b9482f07e85fc931707a759f3c",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/assets/icons/PWA.png": "a7bb079ec1752e3d4870d41f148906c6dcd36227"
+  }
+}

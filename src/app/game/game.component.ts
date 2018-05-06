@@ -1,17 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { MatSnackBar } from '@angular/material';
 import {MatGridList} from '@angular/material/grid-list';
-import { Player } from './player';
-import { Block } from './block';
-import { GameService } from './game.service';
+import { Player } from '../../app/player';
+import { Block } from '../../app/block';
+import { GameService } from '../../app/game.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-game',
+  templateUrl: './game.component.html',
+  styleUrls: ['./game.component.scss']
 })
-export class AppComponent {
-
+export class GameComponent implements OnInit {
 	lock = false;
 
 	constructor(public gs: GameService, public snackBar: MatSnackBar) {
@@ -103,5 +102,7 @@ export class AppComponent {
 
 		}
 	}
+ ngOnInit () {
 
+ }
 }

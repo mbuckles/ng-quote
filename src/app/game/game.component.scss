@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  margin: auto;
+  // align-items: center;
+  justify-content: space-between;
+}
+.game-area {
+  margin-top: 25px;
+  flex: 3;
+  order: 1;
+  text-align: center;
+}
+h1,h2 {
+  margin-bottom: 40px;
+  font-family: "Lemonada";
+  color: blue;
+
+}
+.score {
+  margin-top: 25px;
+  margin-left: 70px;
+  order: 2;
+  flex: 1;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.searchButton{
+  background-color: #5DD642;
+  color: #090909;
+  margin-top:10px;
+  margin-bottom: 20px;
+  height: 33px;
+  font-weight: bold;
+  }
+  .table-bordered td, .table-bordered th {
+    border: 1px solid #000000;
+    font-weight: bold;
+}
+.tick-tack-grid {
+  mat-grid-tile {
+    cursor: pointer;
+    &:nth-child(2),
+    &:nth-child(5),
+    &:nth-child(8) {
+      border-left: 1px solid #000000;
+      border-right: 1px solid #000000;
+    }
+    &:nth-child(4),
+    &:nth-child(5),
+    &:nth-child(6) {
+      border-top: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+    }
+    i.material-icons.tick {
+      color: rgb(9, 96, 211);
+      font-size: 8.5em;
+    }
+    i.material-icons.cross {
+      color: rgb(226, 46, 46);
+      font-size: 8.5em;
+    }
+  }
+}

@@ -3,14 +3,21 @@
   margin: auto;
   // align-items: center;
   justify-content: space-between;
+  max-width: 900px;
 }
 .game-area {
   margin-top: 25px;
-  flex: 3;
+  flex: 2;
   order: 1;
   text-align: center;
 }
-h1,h2 {
+h1 {
+  margin-bottom: 40px;
+  font-family: "Lemonada";
+  color: blue;
+  font-size: 3.5em;
+}
+h2{
   margin-bottom: 40px;
   font-family: "Lemonada";
   color: blue;

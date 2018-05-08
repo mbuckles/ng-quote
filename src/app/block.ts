@@ -1,13 +1,13 @@
 export class Block {
 	free: boolean = true;
 
-	value: string = ""; // cross | tick
-	symbol: string = ""; // cross | tick
+	value: string = "";
+  symbol: string = "";
 
 	setValue(value) {
 		this.value = value
 
-		if( this.value == "tick" ) {
+	if( this.value == "tick" ) {
 			this.symbol = "done";
 		} else {
 			this.symbol = "close";

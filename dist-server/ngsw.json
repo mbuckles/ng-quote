@@ -8,7 +8,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/favicon.ico",
-        "/main.d4adbc6d0105ce771fab.bundle.js",
+        "/main.d85d0269f52d7c76f40a.bundle.js",
         "/polyfills.713242ac4e830ff978cb.bundle.js",
         "/styles.7a6aa54347e5e103d9e1.bundle.css"
       ],
@@ -60,7 +60,7 @@
     }
   ],
   "hashTable": {
-    "/main.d4adbc6d0105ce771fab.bundle.js": "560cf52f3fc0b5fdc5919076e5165582b1023fd1",
+    "/main.d85d0269f52d7c76f40a.bundle.js": "0abf3c06680d2cb9fd5d5687657a017890e45856",
     "/assets/icons/android-chrome-144x144.png": "946c988532eed80857fe58dd16a7837f3fba593d",
     "/polyfills.713242ac4e830ff978cb.bundle.js": "8e08f3339964db09131b8440e6b399157ddf8b1a",
     "/assets/icons/android-chrome-256x256.png": "70cd74dba5a827e53ed85e710af2f380c73a92f2",
